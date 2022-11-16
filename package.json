@@ -1,0 +1,27 @@
+{
+  "name": "fiwa-bot",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "ts-node-dev --respawn --clear --debounce --watch src ./src/index.ts",
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "Vadym Iefremov <vadym.iefremov@gmail.com> (https://www.vaddims.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.4.1",
+    "@discordjs/voice": "^0.9.0",
+    "discord-api-types": "^0.33.0",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.7.0",
+    "ffmpeg-static": "^4.4.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
